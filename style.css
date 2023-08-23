@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: lightcyan;
+}
+.second-heading{
+   display: flex;
+}
+.main-container{
+    padding: 80px;
+    background-color: rgb(247, 247, 247);
+    width: 50%;
+}
+.first-heading{
+    padding: 40px;
+    background-color: white;
+    padding-right: 100px;
+}
+.first-section{
+    padding: 20px;
+    background-color:  hsl(179, 62%, 43%);
+    flex: 1;
+    color: white;
+}
+.second-section{
+    padding: 20px;
+    background-color: hsla(179, 62%, 43%, 60%);
+    flex: 1;
+}
+.per-month{
+    display: flex;
+}
+.first-paragraph{
+    color: hsl(218, 22%, 67%);
+}
+button{
+    border-radius: 5PX;
+    width: 95%;
+    padding: 13PX;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+}
+.second-section p{
+    color: white;
+    padding-right: 50px;
+    line-height: 1.8;
+}
+.second-section h2{
+    color: white;
+}
+.first-heading h1{
+    color: hsl(179, 62%, 43%);
+}
+.first-heading h3{
+    color:hsl(71, 73%, 54%);
+}
+.first-section p{
+margin-bottom: 30px;
+}
+@media screen and (max-width: 850px){
+    .second-heading{
+        flex-direction: column;
+    }
+}
